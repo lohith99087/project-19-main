@@ -58,7 +58,7 @@ function setup() {
     ghost.addImage(ghost_img);
     ghost.scale =0.4
 
-    invisibleGround = createSprite(400,1000);
+    invisibleGround = createSprite(400,900);
     invisibleGround.visible=false;
 
     gameover = createSprite(300,300);
